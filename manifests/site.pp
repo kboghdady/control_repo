@@ -1,7 +1,7 @@
 node default {
   file { '/root/README':
        ensure => file ,
-       content = > 'Welcome to Puppet',
+       content => 'Welcome to Puppet',
   }
 
 }
