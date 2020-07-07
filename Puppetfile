@@ -4,4 +4,3 @@ mod 'puppetlabs/translate'
 mod 'puppetlabs/stdlib'
 mod 'samuelson-dockeragent'
 mod 'garethr/docker'
-
