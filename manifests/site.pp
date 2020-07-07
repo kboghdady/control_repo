@@ -1,8 +1,6 @@
 node default {
-  file { '/root/README':
-       ensure => file ,
-       content => 'Welcome to Puppet',
-       owner => 'root',
-  }
 
+}
+node 'master.puppet.wm' {
+    include role::master_server
 }
