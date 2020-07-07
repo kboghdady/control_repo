@@ -1,11 +1,7 @@
-mod 'puppet-nginx', '1.1.0'
+mod 'puppet-nginx'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/translate'
 mod 'puppetlabs/stdlib'
 mod 'samuelson-dockeragent'
 mod 'garethr/docker'
-mod 'puppetlabs/apt'
-mod 'puppetlabs/powershell'
-mod 'puppetlabs/pwshlib'
-mod 'puppetlabs/reboot'
 
