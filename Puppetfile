@@ -4,4 +4,8 @@ mod 'puppetlabs/translate'
 mod 'puppetlabs/stdlib'
 mod 'pltraining-dockeragent'
 mod 'garethr/docker'
+mod 'puppetlabs/apt'
+mod 'puppetlabs/powershell'
+mod 'puppetlabs/pwshlib'
+mod 'puppetlabs/reboot'
 
