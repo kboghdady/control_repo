@@ -1,5 +1,5 @@
 class profile::docker_agent {
-include 'docker'
+include 'dockeragent'
 
 
 }
