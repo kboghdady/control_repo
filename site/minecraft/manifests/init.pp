@@ -17,7 +17,7 @@ file {'/opt/minecraft/minecraft_server.jar':
        content => 'eula=true', 
       }
  
- file {'etc/systemd/system/minecraft.service':
+ file {'/etc/systemd/system/minecraft.service':
        ensure => present , 
        source => 'puppet:///module/minecraft/minecraft.service', 
       }
