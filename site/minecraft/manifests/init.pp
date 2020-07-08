@@ -25,7 +25,10 @@ file {"${install_dir}/minecraft_server.jar":
  
  file {'/etc/systemd/system/minecraft.service':
        ensure => present , 
-       source => 'puppet:///modules/minecraft/minecraft.service', 
+       content => epp('minecraft/minecraft.service', {
+            install_dir => $install_dir
+            }
+       ) 
       }
       
   service{'minecraft':
