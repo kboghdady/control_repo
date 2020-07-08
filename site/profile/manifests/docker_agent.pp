@@ -7,5 +7,10 @@ host{'web.puppet.vm' :
       ip => '172.18.0.2',
      }
      
+ host{'web.puppet.vm' :
+      ensure => present, 
+      ip => "${ipaddress}",
+     }
+     
 
 }
