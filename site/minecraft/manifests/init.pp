@@ -21,5 +21,11 @@ file {'/opt/minecraft/minecraft_server.jar':
        ensure => present , 
        source => 'puppet:///module/minecraft/minecraft.service', 
       }
+      
+  service{'minecraft':
+          ensure => running , 
+          enable => true , 
+  
+          }
           
 }
