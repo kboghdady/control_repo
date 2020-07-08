@@ -10,7 +10,7 @@ file {'/opt/minecraft':
     
 file {"${install_dir}/minecraft_server.jar":
       ensure => file,
-      source =>  ,
+      source =>  $minecraft_url  ,
       before => Service['minecraft']
       }
       
