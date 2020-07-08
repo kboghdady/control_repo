@@ -6,7 +6,7 @@ node 'master.puppet.vm' {
     
     file {'/root/README':
             ensure => file , 
-            content=> "DNS : ${fqdn} \nMAC: ${networking}\n", 
+            content=> "DNS : ${fqdn} \nMAC: ${macaddress}\n", 
     
     
         }
