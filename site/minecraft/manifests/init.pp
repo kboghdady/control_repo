@@ -19,7 +19,7 @@ file {'/opt/minecraft/minecraft_server.jar':
  
  file {'/etc/systemd/system/minecraft.service':
        ensure => present , 
-       source => 'puppet:///module/minecraft/minecraft.service', 
+       source => 'puppet:///modules/minecraft/minecraft.service', 
       }
       
   service{'minecraft':
